@@ -49,7 +49,7 @@ Note: by default, the `vos_inference.py` script above assumes that all objects t
 In default, you can run the above command to perform the inference on a single GPU. 
 Also, we provide multi-node inference to speed up the process.
 
-The following SLURM script runs inference in parallel across multiple GPUs. It assumes each node has 8 GPUs and evenly distributes video processing tasks across these GPUs. You can adjust the number of GPUs per node by specifying the `--num_nodes` argument.
+The following SLURM script runs inference in parallel across multiple GPUs. It assumes each node has 8 GPUs and evenly distributes video processing tasks across these GPUs. You can adjust the number of nodes by specifying the `--num_nodes` argument.
 
 ```bash
 set -x
